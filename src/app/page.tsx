@@ -53,7 +53,7 @@ export default function LandingPage() {
             { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/professional-headshot-of-another-satisfi-1773171517163-b04595bc.png", alt: "Cliente Eletrosolartec" }
           ]}
           buttons={[
-            { text: "Solicitar Orçamento", href: "contact" },
+            { text: "Gerar Orçamento Grátis", href: "contact" },
             { text: "Saiba Mais", href: "about" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/modern-solar-photovoltaic-panels-install-1773171517232-83f497e5.png"
