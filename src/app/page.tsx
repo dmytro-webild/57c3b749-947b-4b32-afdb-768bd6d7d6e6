@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="Eletrotec "
+          brandName="ELETROTECH SOLAR"
           navItems={[
             { name: "Sobre", id: "about" },
             { name: "Serviços", id: "services" },
