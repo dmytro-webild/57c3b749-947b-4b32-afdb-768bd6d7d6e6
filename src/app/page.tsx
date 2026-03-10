@@ -46,6 +46,12 @@ export default function LandingPage() {
           background={{ variant: "sparkles-gradient" }}
           tag="Energia Renovável Desde 2019"
           tagIcon={Zap}
+          avatarText="Trusted by 1000+ clients"
+          avatars={[
+            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/professional-portrait-of-satisfied-custo-1773171516633-a9739c56.png", alt: "Cliente Eletrosolartec" },
+            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/another-professional-portrait-of-satisfi-1773171517296-7bfddf1b.png", alt: "Cliente Eletrosolartec" },
+            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/professional-headshot-of-another-satisfi-1773171517163-b04595bc.png", alt: "Cliente Eletrosolartec" }
+          ]}
           buttons={[
             { text: "Solicitar Orçamento", href: "contact" },
             { text: "Saiba Mais", href: "about" }
