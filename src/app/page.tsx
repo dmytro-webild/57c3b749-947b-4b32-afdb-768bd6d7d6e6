@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="Eletrosolartec"
+          brandName="Eletrotec "
           navItems={[
             { name: "Sobre", id: "about" },
             { name: "Serviços", id: "services" },
@@ -71,7 +71,7 @@ export default function LandingPage() {
         <TextSplitAbout
           title="Sobre Energia Solar Sorocaba SP"
           description={[
-            "A Energia Solar Sorocaba SP é uma empresa especializada em soluções fotovoltaicas completas com foco em qualidade, eficiência e sustentabilidade. Oferecemos serviços abrangentes que incluem projeto técnico personalizado, instalação profissional, homologação junto à ANEEL, manutenção especializada, além de comercialização de equipamentos de alta qualidade.",            "Nosso compromisso é transformar a energia do sol em economia real para seus negócios e residências. Cada projeto é dimensionado com precisão para maximizar a geração de energia, reduzir sua conta de energia de forma significativa e garantir conformidade técnica com todas as regulamentações. Com atendimento personalizado e suporte técnico contínuo, estamos ao seu lado em cada etapa, desde o diagnóstico inicial até a operação otimizada do sistema. Sustentabilidade e inovação são os pilares de nossas soluções em energia renovável."
+            "A Energia Solar Sorocaba SP é especializada em soluções fotovoltaicas completas para residências e negócios. Oferecemos serviços de projeto, instalação, homologação e manutenção de sistemas de energia solar de alta qualidade, com atendimento personalizado e conformidade técnica garantida.",            "Com equipamentos de ponta e equipes técnicas certificadas, garantimos a redução significativa da sua conta de energia enquanto contribuímos para um futuro sustentável. Cada projeto é dimensionado especificamente para suas necessidades, desde a análise inicial até o pós-venda, com suporte contínuo para maximizar o desempenho do seu sistema solar."
           ]}
           useInvertedBackground={false}
           buttons={[
@@ -84,7 +84,7 @@ export default function LandingPage() {
       <div id="services" data-section="services">
         <FeatureCardTwentyFour
           title="Nossos Serviços"
-          description="Oferecemos soluções completas em energia solar fotovoltaica adaptadas às suas necessidades."
+          description="Soluções especializadas em energia solar fotovoltaica com projetos completos, instalação profissional, homologação técnica, manutenção especializada e equipamentos de alta qualidade."
           tag="Serviços Especializados"
           tagIcon={Sun}
           animationType="slide-up"
@@ -92,19 +92,19 @@ export default function LandingPage() {
           useInvertedBackground={false}
           features={[
             {
-              id: "1",              title: "Instalação de Painéis Solares",              author: "Especialistas em Energia",              description: "Instalação profissional de sistemas fotovoltaicos com tecnologia de ponta. Nossas equipes especializadas garantem qualidade, segurança e desempenho máximo do seu sistema.",              tags: ["Profissional", "Seguro", "Garantido"],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/professional-solar-panel-installation-te-1773171518226-afe10183.png",              imageAlt: "Instalação profissional de painéis solares"
-            },
-            {
-              id: "2",              title: "Projeto e Dimensionamento",              author: "Engenharia Solar",              description: "Elaboração de projetos técnicos personalizados com análise detalhada do seu imóvel e consumo de energia. Garantimos dimensionamento ideal para máxima eficiência.",              tags: ["Customizado", "Técnico", "Eficiente"],
+              id: "1",              title: "Projetos e Dimensionamento",              author: "Engenharia Especializada",              description: "Projetos técnicos personalizados com análise detalhada do consumo de energia, irradiação solar local e otimização de custos. Garantimos dimensionamento ideal para máxima eficiência e retorno de investimento.",              tags: ["Customizado", "Técnico", "Eficiente"],
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/professional-engineer-or-technician-exam-1773171517359-9c597d41.png",              imageAlt: "Consultoria técnica em projetos solares"
             },
             {
-              id: "3",              title: "Homologação com ANEEL",              author: "Conformidade Regulatória",              description: "Gestão completa do processo de homologação junto à ANEEL e distribuidoras de energia. Todos os documentos e procedimentos técnicos para integração à rede.",              tags: ["Regulatório", "Completo", "Credenciado"],
+              id: "2",              title: "Instalação Profissional",              author: "Equipes Certificadas",              description: "Instalação profissional de sistemas fotovoltaicos com tecnologia de ponta e segurança garantida. Nossas equipes especializadas asseguram qualidade, desempenho máximo e conformidade com normas técnicas.",              tags: ["Profissional", "Seguro", "Garantido"],
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/professional-solar-panel-installation-te-1773171518226-afe10183.png",              imageAlt: "Instalação profissional de painéis solares"
+            },
+            {
+              id: "3",              title: "Homologação e Conformidade Técnica",              author: "Conformidade Regulatória",              description: "Gestão completa do processo de homologação junto à ANEEL e distribuidoras de energia. Garantimos conformidade técnica total e integração segura à rede elétrica com documentação completa.",              tags: ["Regulatório", "Completo", "Credenciado"],
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/project-manager-or-consultant-reviewing--1773171517273-a3accd50.png",              imageAlt: "Gestão de projetos e homologação"
             },
             {
-              id: "4",              title: "Manutenção Especializada",              author: "Suporte Contínuo",              description: "Serviços de manutenção preventiva e corretiva para garantir operação otimizada do seu sistema. Monitoramento remoto e atendimento técnico especializado.",              tags: ["Preventiva", "Monitoramento", "Suporte"],
+              id: "4",              title: "Manutenção e Monitoramento",              author: "Suporte Contínuo",              description: "Serviços de manutenção preventiva e corretiva com monitoramento remoto contínuo. Garantimos operação otimizada do seu sistema com atendimento técnico especializado e suporte pós-venda de qualidade.",              tags: ["Preventiva", "Monitoramento", "Suporte"],
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AleAYJVuZaVjviN7tEK4F5SJ6k/technician-performing-maintenance-on-sol-1773171516792-2041f1d8.png",              imageAlt: "Manutenção e monitoramento de sistema solar"
             }
           ]}
@@ -140,7 +140,7 @@ export default function LandingPage() {
 
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardFifteen
-          testimonial="A Eletrosolartec transformou completamente minha conta de energia. O sistema foi instalado rapidamente, a equipe foi profissional e atenciosa, e agora tenho uma redução significativa nos meus custos mensais. Recomendo para todos que buscam energia solar de qualidade!"
+          testimonial="A Energia Solar Sorocaba SP transformou completamente minha conta de energia. O sistema foi instalado com profissionalismo, a equipe foi atenciosa, e agora tenho uma redução significativa nos meus custos mensais. Recomendo para todos que buscam energia solar de qualidade!"
           rating={5}
           author="Cliente Satisfeito, Sorocaba"
           avatars={[
