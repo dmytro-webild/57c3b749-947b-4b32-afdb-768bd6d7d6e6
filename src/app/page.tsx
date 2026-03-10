@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="Eletrotec  Solar "
+          brandName="Eletrosolartec"
           navItems={[
             { name: "Sobre", id: "about" },
             { name: "Serviços", id: "services" },
@@ -69,9 +69,9 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <TextSplitAbout
-          title="Energia Solar Sorocaba SP"
+          title="Sobre Energia Solar Sorocaba SP"
           description={[
-            "A Energia Solar Sorocaba SP é especializada em oferecer soluções completas de energia solar fotovoltaica para residências e negócios. Com experiência consolidada desde 2019, garantimos projetos personalizados, instalação profissional, homologação com órgãos reguladores e manutenção especializada em todo o território brasileiro.",            "Oferecemos equipamento de alta qualidade, atendimento personalizado e conformidade técnica em todas as etapas. Nosso compromisso é reduzir sua conta de energia enquanto contribui para um futuro sustentável. Localizada em Sorocaba, São Paulo, nossa equipe trabalha com excelência, inovação e responsabilidade ambiental para transformar seu consumo energético em geração limpa e renovável."
+            "A Energia Solar Sorocaba SP é uma empresa especializada em soluções fotovoltaicas completas com foco em qualidade, eficiência e sustentabilidade. Oferecemos serviços abrangentes que incluem projeto técnico personalizado, instalação profissional, homologação junto à ANEEL, manutenção especializada, além de comercialização de equipamentos de alta qualidade.",            "Nosso compromisso é transformar a energia do sol em economia real para seus negócios e residências. Cada projeto é dimensionado com precisão para maximizar a geração de energia, reduzir sua conta de energia de forma significativa e garantir conformidade técnica com todas as regulamentações. Com atendimento personalizado e suporte técnico contínuo, estamos ao seu lado em cada etapa, desde o diagnóstico inicial até a operação otimizada do sistema. Sustentabilidade e inovação são os pilares de nossas soluções em energia renovável."
           ]}
           useInvertedBackground={false}
           buttons={[
