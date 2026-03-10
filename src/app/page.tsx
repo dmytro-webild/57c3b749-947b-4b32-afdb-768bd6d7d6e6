@@ -71,7 +71,7 @@ export default function LandingPage() {
         <TextSplitAbout
           title="Sobre EletroTech"
           description={[
-            "Somos uma empresa especializada em energia solar fotovoltaica com atuação consolidada desde 2019. Oferecemos soluções completas em instalação, projeto, homologação e manutenção de sistemas de energia solar em todo o território brasileiro.",            "Localizada em Sorocaba, São Paulo, nossa equipe é comprometida com excelência, inovação e sustentabilidade. Ajudamos residências e negócios a reduzir custos com energia enquanto contribuem para um futuro mais limpo e renovável."
+            "Somos uma empresa especializada em energia solar fotovoltaica com atuação consolidada desde 2023. Oferecemos soluções completas em instalação, projeto, homologação e manutenção de sistemas de energia solar em todo o território brasileiro.",            "Localizada em Sorocaba, São Paulo, nossa equipe é comprometida com excelência, inovação e sustentabilidade. Ajudamos residências e negócios a reduzir custos com energia enquanto contribuem para um futuro mais limpo e renovável."
           ]}
           useInvertedBackground={false}
           buttons={[
