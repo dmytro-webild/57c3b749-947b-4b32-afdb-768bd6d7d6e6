@@ -69,9 +69,9 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <TextSplitAbout
-          title="Sobre Eletrosolartec"
+          title="Energia Solar Sorocaba SP"
           description={[
-            "Somos uma empresa especializada em energia solar fotovoltaica com atuação consolidada desde 2019. Oferecemos soluções completas em instalação, projeto, homologação e manutenção de sistemas de energia solar em todo o território brasileiro.",            "Localizada em Sorocaba, São Paulo, nossa equipe é comprometida com excelência, inovação e sustentabilidade. Ajudamos residências e negócios a reduzir custos com energia enquanto contribuem para um futuro mais limpo e renovável."
+            "A Energia Solar Sorocaba SP é especializada em oferecer soluções completas de energia solar fotovoltaica para residências e negócios. Com experiência consolidada desde 2019, garantimos projetos personalizados, instalação profissional, homologação com órgãos reguladores e manutenção especializada em todo o território brasileiro.",            "Oferecemos equipamento de alta qualidade, atendimento personalizado e conformidade técnica em todas as etapas. Nosso compromisso é reduzir sua conta de energia enquanto contribui para um futuro sustentável. Localizada em Sorocaba, São Paulo, nossa equipe trabalha com excelência, inovação e responsabilidade ambiental para transformar seu consumo energético em geração limpa e renovável."
           ]}
           useInvertedBackground={false}
           buttons={[
