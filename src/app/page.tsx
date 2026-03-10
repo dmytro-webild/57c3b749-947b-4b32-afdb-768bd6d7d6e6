@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="Eletrosolartec"
+          brandName="Eletrotec "
           navItems={[
             { name: "Sobre", id: "about" },
             { name: "Serviços", id: "services" },
@@ -140,7 +140,7 @@ export default function LandingPage() {
 
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardFifteen
-          testimonial="A Eletrosolartec transformou completamente minha conta de energia. O sistema foi instalado rapidamente, a equipe foi profissional e atenciosa, e agora tenho uma redução significativa nos meus custos mensais. Recomendo para todos que buscam energia solar de qualidade!"
+          testimonial="A Eletrotec Solar transformou completamente minha conta de energia. O sistema foi instalado rapidamente, a equipe foi profissional e atenciosa, e agora tenho uma redução significativa nos meus custos mensais. Recomendo para todos que buscam energia solar de qualidade!"
           rating={5}
           author="Cliente Satisfeito, Sorocaba"
           avatars={[
